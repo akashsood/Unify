@@ -20,32 +20,41 @@ namespace Unify
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            var fromAddress = new MailAddress(TextBox1.Text);
-            var fromPassword = TextBox6.Text;
-            var toAddress = new MailAddress(TextBox2.Text);
-
-            string subject = TextBox3.Text;
-            string body = TextBox4.Text;
-
-            SmtpClient smtp = new SmtpClient
+            try
             {
-                Host = "smtp.gmail.com",
-                Port = 587,
-                EnableSsl = true,
-                DeliveryMethod = SmtpDeliveryMethod.Network,
-                UseDefaultCredentials = false,
-                Credentials = new NetworkCredential(fromAddress.Address, fromPassword)
 
-            };
 
-            using (var message = new MailMessage(fromAddress, toAddress)
+                var fromAddress = new MailAddress(TextBox1.Text);
+                var fromPassword = TextBox6.Text;
+                var toAddress = new MailAddress(TextBox2.Text);
+
+                string subject = TextBox3.Text;
+                string body = TextBox4.Text;
+
+                SmtpClient smtp = new SmtpClient
+                {
+                    Host = "smtp.gmail.com",
+                    Port = 587,
+                    EnableSsl = true,
+                    DeliveryMethod = SmtpDeliveryMethod.Network,
+                    UseDefaultCredentials = false,
+                    Credentials = new NetworkCredential(fromAddress.Address, fromPassword)
+
+                };
+
+                using (var message = new MailMessage(fromAddress, toAddress)
+                {
+                    Subject = subject,
+                    Body = body
+                })
+
+
+                    smtp.Send(message);
+            }
+            catch (Exception ex)
             {
-                Subject = subject,
-                Body = body
-            })
-
-
-                smtp.Send(message);
+                Response.Write(ex.Message);
+            }
         }
     }
 }
