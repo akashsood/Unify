@@ -1,4 +1,5 @@
 <html>
 <body>
 <h1>Heading of the page</h1>
+<h2>This is the sub heading<h2>
 </html>
