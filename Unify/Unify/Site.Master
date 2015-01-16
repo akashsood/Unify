@@ -15,16 +15,16 @@
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!-- CSS Global Compulsory -->
-    <link href="Stylesheet/bootstrap.css" rel="stylesheet" />
-    <link href="Stylesheet/Style.css" rel="stylesheet" />
+    <link href="_CSS/bootstrap.css" rel="stylesheet" />
+    <link href="_CSS/Style.css" rel="stylesheet" />
 
     <!-- CSS Implementing Plugins -->
-    <link href="Stylesheet/line-icons.css" rel="stylesheet" />
-    <link href="Stylesheet/font-awesome-min.css" rel="stylesheet" />
-    <link href="Stylesheet/owl-carousel.css" rel="stylesheet" />
+    <link href="_CSS/line-icons.css" rel="stylesheet" />
+    <link href="_CSS/font-awesome-min.css" rel="stylesheet" />
+    <link href="_CSS/owl-carousel.css" rel="stylesheet" />
 
     <!-- CSS Page Style -->
-    <link href="Stylesheet/page-about.css" rel="stylesheet" />
+    <link href="_CSS/page-about.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

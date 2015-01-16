@@ -49,7 +49,7 @@
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-sm-4">
-                        <img alt="" src="Images/Person1.jpg" href="Images/Person1.jpg" type="Multimedia" targetattribute="src" class="img-responsive margin-bottom-20" />
+                        <img alt="" src="_Images/Person1.jpg" href="_Images/Person1.jpg" type="Multimedia" targetattribute="src" class="img-responsive margin-bottom-20" />
                     </div>
                     <div class="col-sm-8">
                         <p>
@@ -139,7 +139,7 @@
                         <div class="margin-bottom-20"></div>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-responsive" src="Images/Laptop.png" alt="">
+                        <img class="img-responsive" src="_Images/Laptop.png" alt="">
                     </div>
                 </div>
             </div>
@@ -159,7 +159,7 @@
             <!-- Begin Easy Block v2 -->
             <div class="col-md-3 col-sm-6 md-margin-bottom-20">
                 <div class="simple-block">
-                    <img class="img-responsive img-bordered" src="Images/Life1.jpg" alt="">
+                    <img class="img-responsive img-bordered" src="_Images/Life1.jpg" alt="">
                     <p>Pellentesque et erat ac massa cursus porttitor eget sed magna.</p>
                 </div>
             </div>
@@ -168,7 +168,7 @@
             <!-- Begin Easy Block v2 -->
             <div class="col-md-3 col-sm-6 md-margin-bottom-20">
                 <div class="simple-block">
-                    <img class="img-responsive img-bordered" src="Images/Life2.jpg" alt="">
+                    <img class="img-responsive img-bordered" src="_Images/Life2.jpg" alt="">
                     <p>Pellentesque et erat ac massa cursus porttitor eget sed magna.</p>
                 </div>
             </div>
@@ -177,7 +177,7 @@
             <!-- Begin Easy Block v2 -->
             <div class="col-md-3 col-sm-6 md-margin-bottom-20">
                 <div class="simple-block">
-                    <img class="img-responsive img-bordered" src="Images/Life3.jpg" alt="">
+                    <img class="img-responsive img-bordered" src="_Images/Life3.jpg" alt="">
                     <p>Pellentesque et erat ac massa cursus porttitor eget sed magna.</p>
                 </div>
             </div>
@@ -186,7 +186,7 @@
             <!-- Begin Easy Block v2 -->
             <div class="col-md-3 col-sm-6 md-margin-bottom-20">
                 <div class="simple-block">
-                    <img class="img-responsive img-bordered" src="Images/Life4.jpg" alt="">
+                    <img class="img-responsive img-bordered" src="_Images/Life4.jpg" alt="">
                     <p>Pellentesque et erat ac massa cursus porttitor eget sed magna.</p>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                 <!-- Team v2 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="team-v2">
-                        <img class="img-responsive" src="Images/Person1.jpg" alt="">
+                        <img class="img-responsive" src="_Images/Person1.jpg" alt="">
                         <div class="inner-team">
                             <h3>Jack Anderson</h3>
                             <small style="color: green">CEO, Chief Officer</small>
@@ -238,7 +238,7 @@
                 <!-- Team v2 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="team-v2">
-                        <img class="img-responsive" src="Images/Person2.jpg" alt="">
+                        <img class="img-responsive" src="_Images/Person2.jpg" alt="">
                         <div class="inner-team">
                             <h3>Kate Metus</h3>
                             <small style="color: green">Project Manager</small>
@@ -257,7 +257,7 @@
                 <!-- Team v2 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="team-v2">
-                        <img class="img-responsive" src="Images/Person3.jpg" alt="">
+                        <img class="img-responsive" src="_Images/Person3.jpg" alt="">
                         <div class="inner-team">
                             <h3>Porta Gravida</h3>
                             <small style="color: green">VP of Operations</small>
@@ -288,7 +288,7 @@
                 <!-- Team v2 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="team-v2">
-                        <img class="img-responsive" src="Images/Person4.jpg" alt="">
+                        <img class="img-responsive" src="_Images/Person4.jpg" alt="">
                         <div class="inner-team">
                             <h3>Donec Elisson</h3>
                             <small style="color: green">Director, R &amp; D Talent</small>
@@ -630,57 +630,57 @@
                     <div class="owl-wrapper" style="width: 2794px; left: 0px; display: block;">
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Azteca.png" alt="">
+                                <img class="img-responsive" src="_Images/Azteca.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Cisco.png" alt="">
+                                <img class="img-responsive" src="_Images/Cisco.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Coke.png" alt="">
+                                <img class="img-responsive" src="_Images/Coke.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Everyday.png" alt="">
+                                <img class="img-responsive" src="_Images/Everyday.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/HP.png" alt="">
+                                <img class="img-responsive" src="_Images/HP.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Motogp.png" alt="">
+                                <img class="img-responsive" src="_Images/Motogp.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Naturalgreen.png" alt="">
+                                <img class="img-responsive" src="_Images/Naturalgreen.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Shell.png" alt="">
+                                <img class="img-responsive" src="_Images/Shell.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Spinworkx.png" alt="">
+                                <img class="img-responsive" src="_Images/Spinworkx.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Vodafone.png" alt="">
+                                <img class="img-responsive" src="_Images/Vodafone.png" alt="">
                             </div>
                         </div>
                         <div class="owl-item" style="width: 127px;">
                             <div class="item">
-                                <img class="img-responsive" src="Images/Walmart.png" alt="">
+                                <img class="img-responsive" src="_Images/Walmart.png" alt="">
                             </div>
                         </div>
                     </div>

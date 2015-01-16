@@ -67,35 +67,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Images\Azteca.png" />
-    <Content Include="Images\Cisco.png" />
-    <Content Include="Images\Coke.png" />
-    <Content Include="Images\Everyday.png" />
-    <Content Include="Images\HP.png" />
-    <Content Include="Images\Image1.jpg" />
-    <Content Include="Images\Image2.jpg" />
-    <Content Include="Images\Image3.jpg" />
-    <Content Include="Images\Laptop.png" />
-    <Content Include="Images\Life1.jpg" />
-    <Content Include="Images\Life2.jpg" />
-    <Content Include="Images\Life3.jpg" />
-    <Content Include="Images\Life4.jpg" />
-    <Content Include="Images\Motogp.png" />
-    <Content Include="Images\Naturalgreen.png" />
-    <Content Include="Images\Person1.jpg" />
-    <Content Include="Images\Person2.jpg" />
-    <Content Include="Images\Person3.jpg" />
-    <Content Include="Images\Person4.jpg" />
-    <Content Include="Images\Shell.png" />
-    <Content Include="Images\Spinworkx.png" />
-    <Content Include="Images\Vodafone.png" />
-    <Content Include="Images\Walmart.png" />
-    <Content Include="Stylesheet\bootstrap.css" />
-    <Content Include="Stylesheet\font-awesome-min.css" />
-    <Content Include="Stylesheet\line-icons.css" />
-    <Content Include="Stylesheet\owl-carousel.css" />
-    <Content Include="Stylesheet\page-about.css" />
-    <Content Include="Stylesheet\Style.css" />
+    <Content Include="_Controls\Contact.ascx" />
+    <Content Include="_Images\Azteca.png" />
+    <Content Include="_Images\Cisco.png" />
+    <Content Include="_Images\Coke.png" />
+    <Content Include="_Images\Everyday.png" />
+    <Content Include="_Images\HP.png" />
+    <Content Include="_Images\Image1.jpg" />
+    <Content Include="_Images\Image2.jpg" />
+    <Content Include="_Images\Image3.jpg" />
+    <Content Include="_Images\Laptop.png" />
+    <Content Include="_Images\Life1.jpg" />
+    <Content Include="_Images\Life2.jpg" />
+    <Content Include="_Images\Life3.jpg" />
+    <Content Include="_Images\Life4.jpg" />
+    <Content Include="_Images\Motogp.png" />
+    <Content Include="_Images\Naturalgreen.png" />
+    <Content Include="_Images\Person1.jpg" />
+    <Content Include="_Images\Person2.jpg" />
+    <Content Include="_Images\Person3.jpg" />
+    <Content Include="_Images\Person4.jpg" />
+    <Content Include="_Images\Shell.png" />
+    <Content Include="_Images\Spinworkx.png" />
+    <Content Include="_Images\Vodafone.png" />
+    <Content Include="_Images\Walmart.png" />
+    <Content Include="_CSS\bootstrap.css" />
+    <Content Include="_CSS\font-awesome-min.css" />
+    <Content Include="_CSS\line-icons.css" />
+    <Content Include="_CSS\owl-carousel.css" />
+    <Content Include="_CSS\page-about.css" />
+    <Content Include="_CSS\Style.css" />
     <Content Include="Web.config" />
     <Content Include="about.aspx">
       <BrowseToURL>~/about.aspx</BrowseToURL>
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Controls\Contact.ascx.cs">
+      <DependentUpon>Contact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Controls\Contact.ascx.designer.cs">
+      <DependentUpon>Contact.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
